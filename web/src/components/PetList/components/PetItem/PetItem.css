@@ -2,16 +2,37 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  border: solid 1px #d5d5d9;
+  background-color: #e5ebeb;
+  border-radius: 10px;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.06);
   margin-bottom: 10px;
   padding: 20px;
+  transition-duration: 200ms;
+}
+
+.Pet-item:hover {
+  background-color: #dee6e6;
+  cursor: pointer;
 }
 
 .Pet-image {
   width: 80px;
 }
 
+.Text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 4px;
+}
+
 .Pet-details-label {
   font-weight: 500;
+  color: #006263;
+}
+
+.Pet-name {
+  font-weight: 600;
+  justify-self: start;
+  font-size: 1.2rem;
 }

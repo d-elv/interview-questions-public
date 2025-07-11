@@ -1,6 +1,8 @@
 body {
   margin: 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    "segoe ui", "helvetica neue", helvetica, Ubuntu, roboto, noto, arial,
+    sans-serif;
   color: #585668;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
